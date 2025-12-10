@@ -1,0 +1,20 @@
+.STX-3501-3N :1 ;Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE
+STX35013N
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 5
+*DFN STX-3501-3N
+~!Manufacturer_Name (Kycon)
+~!Manufacturer_Part_Number (STX-3501-3N)
+~!Mouser Part Number (806-STX-3501-3N)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf)
+~!Height (5mm)
+~!3D_Model (STX-3501-3N)
+STX-3501-3N
+1.1!U 2.1!U 3.1!U 

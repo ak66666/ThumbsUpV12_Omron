@@ -1,0 +1,9 @@
+Manufacturer=Kycon
+PartNumber=STX-3501-3N
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2021-01-27 11:14:49
+Downloaded=2022-12-25 01:32:09
+3D=Y

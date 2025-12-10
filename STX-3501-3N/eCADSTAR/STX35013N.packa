@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STX-3501-3N"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-03-24-17:50:53)
+    (mountForm default
+        (footprintRef "STX35013N")
+        (spec "System")
+    )
+)

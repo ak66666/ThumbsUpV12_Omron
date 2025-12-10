@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STX_3501_3N'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kycon", "STX-3501-3N" (!) = "", "STX35013N", "Other", "806-STX-3501-3N", "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D", "", "", "", "", "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf", "5 mm"
+END_PART
+
+END.

@@ -1,0 +1,232 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "STX-3501-3N"
+   (description "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE")
+   (family "CON")
+   (package "STX35013N")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf")
+   (attribute "Geometry.Height" "5mm")
+   (attribute "Manufacturer_Name" "Kycon")
+   (attribute "Manufacturer_Part_Number" "STX-3501-3N")
+   (attribute "Mouser Part Number" "806-STX-3501-3N")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "STX-3501-3N")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "STX-3501-3N"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "STX35013N"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.475 -12.1)
+      (pt 5.525 -12.1)
+      (pt 5.525 2.4)
+      (pt -0.475 2.4)
+      (pt -0.475 -12.1))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0.025 2.4)
+      (pt 5.025 2.4)
+      (pt 5.025 4.9)
+      (pt 0.025 4.9)
+      (pt 0.025 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.475 1.4)
+      (pt -0.475 1.4)
+      (pt -0.475 2.4)
+      (pt -0.475 2.4)
+      (pt -0.475 1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.475 2.4)
+      (pt 0 2.4)
+      (pt 0 2.4)
+      (pt -0.475 2.4)
+      (pt -0.475 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 2.4)
+      (pt 5.025 2.4)
+      (pt 5.025 4.9)
+      (pt 0 4.9)
+      (pt 0 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 5.05 2.4)
+      (pt 5.525 2.4)
+      (pt 5.525 2.4)
+      (pt 5.05 2.4)
+      (pt 5.05 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 5.525 2.4)
+      (pt 5.525 2.4)
+      (pt 5.525 -0.35)
+      (pt 5.525 -0.35)
+      (pt 5.525 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 5.525 -3.35)
+      (pt 5.525 -3.35)
+      (pt 5.525 -12.1)
+      (pt 5.525 -12.1)
+      (pt 5.525 -3.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 5.525 -12.1)
+      (pt -0.475 -12.1)
+      (pt -0.475 -12.1)
+      (pt 5.525 -12.1)
+      (pt 5.525 -12.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.475 -12.1)
+      (pt -0.475 -12.1)
+      (pt -0.475 -11.1)
+      (pt -0.475 -11.1)
+      (pt -0.475 -12.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.475 -7.35)
+      (pt -0.475 -7.35)
+      (pt -0.475 -1.6)
+      (pt -0.475 -1.6)
+      (pt -0.475 -7.35))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.375 5.9)
+      (pt 7.175 5.9)
+      (pt 7.175 -13.1)
+      (pt -2.375 -13.1)
+      (pt -2.375 5.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2 0)
+      (arc (pt -2.000 0.000) (pt -2.000 -0.050) (pt -1.900 0.050) (start 180.0) (sweep 180.0))
+      (pt -1.9 0)
+      (arc (pt -1.900 0.000) (pt -2.000 -0.050) (pt -1.900 0.050) (start 180.0) (sweep .0))
+      (pt -2 0)
+      (arc (pt -2.000 0.000) (pt -2.000 -0.050) (pt -1.900 0.050) (start 180.0) (sweep 180.0))
+      (pt -1.9 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.125 -9.300) (padstack 2))
+   (leg 3 (pt 5.050 -1.900) (padstack 0))
+   (leg MH1 (pt 2.525 -1.100) (padstack 4))
+   (leg MH2 (pt 2.525 -8.100) (padstack 5))
+   (padstack 0
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 2
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (padstack 4
+    (hole 1.6)
+    (plated false)
+    (pad (layer TCOP) (round 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (round 0.800))
+   )
+   (padstack 5
+    (hole 1.6)
+    (plated false)
+    (pad (layer TCOP) (round 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (round 0.800))
+   )
+   (model "STX-3501-3N.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
