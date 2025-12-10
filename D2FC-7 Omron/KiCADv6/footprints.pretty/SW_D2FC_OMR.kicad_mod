@@ -284,7 +284,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -2.5 2.5)
+		(at -2.5 1.5)
 		(size 1.7018 1.7018)
 		(drill 1.1938)
 		(layers "*.Cu" "*.Mask")
@@ -308,7 +308,7 @@
 		(uuid "d2fdb32a-c8d9-4f3a-95d2-20fb5d90b915")
 	)
 	(pad "2" thru_hole circle
-		(at 2.5 2.5)
+		(at 2.5 1.5)
 		(size 1.7018 1.7018)
 		(drill 1.1938)
 		(layers "*.Cu" "*.Mask")
