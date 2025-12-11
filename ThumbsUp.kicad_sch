@@ -2343,6 +2343,12 @@
 		(uuid "cd7a967c-c10d-4769-b7ae-f91d0db05162")
 	)
 	(junction
+		(at 438.15 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3369542-9ff8-4a56-a634-9b6286f06c0c")
+	)
+	(junction
 		(at 300.99 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2520,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 207.01) (xy 438.15 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df264e8-e40e-43a9-8982-a6ce64f81edf")
+	)
+	(wire
+		(pts
 			(xy 505.46 345.44) (xy 510.54 345.44)
 		)
 		(stroke
@@ -2587,6 +2603,16 @@
 			(type default)
 		)
 		(uuid "29521e57-29d4-4921-9b79-8821b41f1da0")
+	)
+	(wire
+		(pts
+			(xy 425.45 302.26) (xy 416.56 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296e11bd-1995-49cf-b429-7879635aa4f7")
 	)
 	(wire
 		(pts
@@ -2870,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 438.15 199.39) (xy 438.15 212.09)
+			(xy 438.15 199.39) (xy 438.15 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3247,6 +3273,16 @@
 			(type default)
 		)
 		(uuid "d4cc6c67-845b-4cdd-bca2-337e897145ce")
+	)
+	(wire
+		(pts
+			(xy 438.15 207.01) (xy 438.15 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a2b5a1-4040-464f-ae1d-ecfed85e7410")
 	)
 	(wire
 		(pts
@@ -3722,7 +3758,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 438.15 212.09 180)
+		(at 434.34 207.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3731,7 +3767,7 @@
 		)
 		(uuid "700cefaf-5f93-4c41-8957-8e36fc545021")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 438.15 212.09 90)
+			(at 434.34 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3888,7 @@
 	)
 	(global_label "L-TIP"
 		(shape input)
-		(at 386.08 224.79 270)
+		(at 386.08 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3861,7 +3897,7 @@
 		)
 		(uuid "9294c358-a561-4278-8874-58a8475fe634")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 386.08 224.79 0)
+			(at 386.08 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4164,7 @@
 	)
 	(global_label "R-TIP"
 		(shape input)
-		(at 386.08 204.47 270)
+		(at 386.08 204.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4137,7 +4173,7 @@
 		)
 		(uuid "cf35c7ce-69ef-4d1e-ac07-0554434f7731")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 386.08 204.47 0)
+			(at 386.08 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,6 +6652,73 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 425.45 304.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "061eec4f-a9e7-42ab-b10a-90e02057bf46")
+		(property "Reference" "H3"
+			(at 427.99 304.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 427.99 307.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 425.45 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 425.45 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1af83db3-ffae-48fd-97a3-340064138978")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 421.64 280.67 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7341,6 +7444,70 @@
 			(project "ThumbsUp"
 				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
 					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 416.56 302.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fecaaed-76a7-4207-b40e-6cfe74f66072")
+		(property "Reference" "#PWR07"
+			(at 416.56 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDB"
+			(at 416.687 306.6542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 416.56 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 416.56 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 416.56 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1ba137f-3640-47fe-aed4-11974a355a2c")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
