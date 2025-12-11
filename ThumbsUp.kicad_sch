@@ -2097,6 +2097,12 @@
 		(uuid "62db2337-00d7-4411-98f9-eece0890a188")
 	)
 	(junction
+		(at 422.91 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62fdb833-d771-4b2c-b0f2-f58f7120f6fc")
+	)
+	(junction
 		(at 491.49 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2946,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 278.13) (xy 426.72 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efec61e-6452-4fb1-9f67-e2a16ba4857d")
+	)
+	(wire
+		(pts
 			(xy 297.18 203.2) (xy 297.18 205.74)
 		)
 		(stroke
@@ -3196,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 421.64 278.13) (xy 426.72 278.13)
+			(xy 421.64 278.13) (xy 422.91 278.13)
 		)
 		(stroke
 			(width 0)
@@ -6846,6 +6862,73 @@
 			(project "ThumbsUp"
 				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
 					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 422.91 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed68cf0-d598-4934-9bac-effefb67a27f")
+		(property "Reference" "H4"
+			(at 425.45 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 425.45 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
+			(at 422.91 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 422.91 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63cd0ad8-90c0-4812-a675-263907e67331")
+		)
+		(instances
+			(project ""
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "H4")
 					(unit 1)
 				)
 			)
