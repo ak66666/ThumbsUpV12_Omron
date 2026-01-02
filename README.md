@@ -1,22 +1,19 @@
-# ThumbsUp! v3 RP2040-based 4x12 keyboard for Kailh Choc switches
-
-Multilevel 44 Key Split Contoured Keyboard.
+# ThumbsUp! v12 RP2040-based ProMicor 3x12 keyboard for Omron and mouse switches.
+                           
+Steno keyboard (number key instead of a bar)
 2-key Thumb Cluster
 
-* RP2040 is soldered on the boards.
+* RP2040 ProMicro.
 * TRS (3-wire) audio cable to connect the halves.
-* Hot swap sockets for Kailh Choc switches.
 * USB-C connectors.
-* Connects to computer from either side, halves could be used separately.
  
-![Main view](https://github.com/ak66666/ThumbsUpV3Rp2040/blob/main/Photos/IMG_20240202_222219204_HDR.jpg )
-![Key caps removed ](https://github.com/ak66666/ThumbsUpV3Rp2040/blob/main/Photos/IMG_20240202_221640572_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.0/IMG_20251231_223140328_HDR.jpg)
+![Omron switch](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.0/IMG_20251231_223105785_HDR.jpg)
+![Mouse button](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.0/IMG_20251231_223120081_HDR.jpg)
+
 
 Other pictures in Photos folder.
 
 # Firmware
 
-Please refer to this article:
-https://thumbsupkeyboards.blogspot.com/2024/02/source-files-and-default-firmware.html
-
-
+//TODO 
