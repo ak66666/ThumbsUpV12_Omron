@@ -11,6 +11,8 @@ Omron mouse switches or 6x6 two-pin switches.
 
 
 ![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.1/IMG_20260121_164555308.jpg)
+![PCB Render](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.1/PCB_KICAD_render.png)
+ 
 ![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.1/IMG_20260121_164613377.jpg)
 ![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.1/IMG_20260120_003025359_HDR.jpg)
 ![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.1/IMG_20251226_151121177_HDR.jpg)
