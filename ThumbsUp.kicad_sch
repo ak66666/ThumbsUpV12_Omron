@@ -465,6 +465,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -2134,6 +2258,27 @@
 		)
 		(uuid "a4417a83-5d6f-4c0e-9377-fdfc9b22304f")
 	)
+	(text "Left Hand"
+		(exclude_from_sim no)
+		(at 278.13 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3a08d85-6ee5-4d58-8ccd-94f9ac8ff1da")
+	)
+	(text "Handiness"
+		(exclude_from_sim no)
+		(at 298.958 216.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dda9d09d-faf0-4cfa-9b4c-b745a8fe8b68")
+	)
 	(junction
 		(at 303.53 308.61)
 		(diameter 0)
@@ -2307,6 +2452,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62fdb833-d771-4b2c-b0f2-f58f7120f6fc")
+	)
+	(junction
+		(at 289.56 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f06a30-f875-43ec-bee8-f2de306bc8fd")
 	)
 	(junction
 		(at 491.49 345.44)
@@ -2674,16 +2825,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 218.44) (xy 297.18 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a682158-7dcb-43ce-bfd7-5ebf98e4eead")
-	)
-	(wire
-		(pts
 			(xy 502.92 332.74) (xy 500.38 332.74)
 		)
 		(stroke
@@ -2711,6 +2852,16 @@
 			(type default)
 		)
 		(uuid "185bd31d-ea14-4462-8108-dc5d3addca3c")
+	)
+	(wire
+		(pts
+			(xy 289.56 219.71) (xy 289.56 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199465c5-b557-4bbd-91df-cbb39f0bc2ee")
 	)
 	(wire
 		(pts
@@ -3111,16 +3262,6 @@
 			(type default)
 		)
 		(uuid "6b96f628-51b8-49ed-b1d9-7f1251a6b4ff")
-	)
-	(wire
-		(pts
-			(xy 304.8 218.44) (xy 308.61 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bce5e79-38d2-46e8-bdf1-7b54385b4b03")
 	)
 	(wire
 		(pts
@@ -3564,6 +3705,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 218.44) (xy 308.61 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc801a50-774d-4c4f-8ba2-b6d8f557c310")
+	)
+	(wire
+		(pts
 			(xy 491.49 332.74) (xy 488.95 332.74)
 		)
 		(stroke
@@ -3870,6 +4021,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L-RING1"
+		(shape input)
+		(at 289.56 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4953b669-63ad-42e5-b7b2-e09dab151d17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.56 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6280,6 +6451,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 289.56 214.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063db25ae")
+		(property "Reference" "R17"
+			(at 287.782 215.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 287.782 213.487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 291.338 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7bbed868-22d8-451e-aeaf-b5930c0166a9")
+		)
+		(pin "1"
+			(uuid "610891dd-b1df-4611-a17f-af68f1d62193")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 406.4 222.25 0)
 		(unit 1)
@@ -8131,7 +8370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 295.91 218.44 0)
+		(at 289.56 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8139,7 +8378,7 @@
 		(dnp no)
 		(uuid "9f7b8f8f-09f0-4019-87cb-d8c92710d1ef")
 		(property "Reference" "#PWR08"
-			(at 295.91 224.79 0)
+			(at 289.56 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +8387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 296.037 222.8342 0)
+			(at 289.687 230.4542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 218.44 0)
+			(at 289.56 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +8404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 218.44 0)
+			(at 289.56 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +8413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 295.91 218.44 0)
+			(at 289.56 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,32 +8565,33 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 300.99 218.44 0)
+		(at 289.56 222.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb30f297-0590-4a25-8801-e19e67f1f67c")
 		(property "Reference" "JP1"
-			(at 300.99 212.09 0)
+			(at 284.226 221.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Handiness"
-			(at 300.99 214.63 0)
+		(property "Value" "Right Hand"
+			(at 278.13 224.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 300.99 218.44 0)
+			(at 289.56 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8600,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 218.44 0)
+			(at 289.56 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8609,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 300.99 218.44 0)
+			(at 289.56 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
