@@ -9,6 +9,12 @@ Omron mouse switches or 6x6 two-pin switches.
 * TRS (3-wire) audio cable to connect the halves.
 * USB-C connectors.
 
+# Rev.2
+
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.2/IMG_20260209_195204672.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.2/IMG_20260209_195228750_HDR.jpg)
+
+# Rev.1
 
 ![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.1/IMG_20260121_164555308.jpg)
 ![PCB Render](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.1/PCB_KICAD_render.png)
