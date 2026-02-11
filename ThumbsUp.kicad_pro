@@ -1503,7 +1503,7 @@
       "plot": "Gerbers/L2 Top/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D Printed/Bottom Plate.step",
       "svg": "",
       "vrml": ""
     },
