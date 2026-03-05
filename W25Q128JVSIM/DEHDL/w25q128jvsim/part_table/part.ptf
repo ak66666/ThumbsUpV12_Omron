@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'W25Q128JVSIM'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Winbond", "W25Q128JVSIM" (!) = "", "SOIC127P790X216-8N", "Small Outline Packages", "454-W25Q128JVSIM", "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVSIM?qs=qSfuJ%252Bfl%2Fd6d7A5WLggp6w%3D%3D", "W25Q128JVSIM", "https://www.arrow.com/en/products/w25q128jvsim/winbond-electronics?region=nac", "", "", "128M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI", "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q128JVSIM&type=datasheet", "2.16 mm"
+END_PART
+
+END.

@@ -1,0 +1,133 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "EVQ-P7B01P"
+   (description "SWITCH, TACTILE, SPST-NO, 50mA, 12VDC, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:Surface Mount; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC RoHS Compliant: Yes")
+   (family "SWI")
+   (package "EVQP7B01P")
+   (attribute "Datasheet Link" "https://www.mouser.com/datasheet/2/315/sw_lt_eng_3529s_side-1289027.pdf")
+   (attribute "Geometry.Height" "1.55mm")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "EVQ-P7B01P")
+   (attribute "Mouser Part Number" "667-EVQP7B01P")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7B01P?qs=rJ%252BziJWpysy7zJMMjBY36A%3D%3D")
+   (attribute "Arrow Part Number" "EVQ-P7B01P")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/evq-p7b01p/panasonic")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "EVQ-P7B01P")
+    (pin "NO_1" A1 PS)
+    (pin "COM_1" A2 PS)
+    (pin "NO_2" B1 PS)
+    (pin "COM_2" B2 PS)
+   )
+  )
+  (symbol "EVQ-P7B01P"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "EVQP7B01P"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.75 0)
+      (pt 1.75 0)
+      (pt 1.75 -2.9)
+      (pt -1.75 -2.9)
+      (pt -1.75 0))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.6 1.65)
+      (pt 3.5 1.65)
+      (pt 3.5 -3.9)
+      (pt -4.6 -3.9)
+      (pt -4.6 1.65))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.5 0)
+      (pt -0.5 0.65)
+      (pt 0.5 0.65)
+      (pt 0.5 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1 0)
+      (pt -0.5 0)
+      (pt -0.5 0.65)
+      (pt 0.5 0.65)
+      (pt 0.5 0)
+      (pt 1.5 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.5 -2.9)
+      (pt 0.5 -2.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.5 0)
+      (arc (pt -3.500 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep .0))
+      (pt -3.6 0)
+      (arc (pt -3.600 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep -180.0))
+      (pt -3.5 0))))
+   (leg A1 (pt -1.800 -0.725) (padstack 0))
+   (leg A2 (pt -1.800 -2.175) (padstack 0))
+   (leg B1 (pt 1.800 -0.725) (padstack 0))
+   (leg B2 (pt 1.800 -2.175) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.050 1.400 0 0 0.000))
+   )
+  )
+ )
+)

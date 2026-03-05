@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TL1016AAF220QG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-08-06-02:59:06)
+    (mountForm default
+        (footprintRef "TL1016AAF220QG")
+        (spec "System")
+    )
+)

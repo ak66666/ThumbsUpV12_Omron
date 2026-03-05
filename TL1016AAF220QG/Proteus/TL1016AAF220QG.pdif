@@ -1,0 +1,138 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TL1016AAF220QG"
+   (description "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC")
+   (family "SWI")
+   (package "TL1016AAF220QG")
+   (attribute "Datasheet Link" "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf")
+   (attribute "Geometry.Height" "1.35mm")
+   (attribute "Manufacturer_Name" "E-Switch")
+   (attribute "Manufacturer_Part_Number" "TL1016AAF220QG")
+   (attribute "Mouser Part Number" "612-TL1016AAF220QG")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "TL1016AAF220QG")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "TL1016AAF220QG"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TL1016AAF220QG"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 1.45)
+      (pt 1.75 1.45)
+      (pt 1.75 -1.45)
+      (pt -1.75 -1.45)
+      (pt -1.75 1.45))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.5 2.45)
+      (pt 3.5 2.45)
+      (pt 3.5 -3.1)
+      (pt -3.5 -3.1)
+      (pt -3.5 2.45))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.85 -1.45)
+      (pt -0.85 -2.1)
+      (pt 0.85 -2.1)
+      (pt 0.85 -1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.85 -1.45)
+      (pt -0.85 -2.1)
+      (pt 0.85 -2.1)
+      (pt 0.85 -1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.8 -1.45)
+      (pt 0.8 -1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.8 1.45)
+      (pt 0.85 1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 0.675)
+      (arc (pt -3.000 0.675) (pt -3.100 0.625) (pt -3.000 0.725) (start 180.0) (sweep .0))
+      (pt -3.1 0.675)
+      (arc (pt -3.100 0.675) (pt -3.100 0.625) (pt -3.000 0.725) (start 180.0) (sweep 180.0))
+      (pt -3 0.675))))
+   (leg 1 (pt -1.800 0.725) (padstack 0))
+   (leg 2 (pt 1.800 0.725) (padstack 0))
+   (leg 3 (pt -1.800 -0.725) (padstack 0))
+   (leg 4 (pt 1.800 -0.725) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.050 1.400 0 0 0.000))
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Winbond
+PartNumber=W25Q128JVSIM
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=4.1
+Released=2019-08-22 13:10:37
+Downloaded=2022-11-25 00:15:06
+3D=Y

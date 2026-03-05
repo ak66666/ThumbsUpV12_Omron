@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EVQ_P7B01P'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "EVQ-P7B01P" (!) = "", "EVQP7B01P", "Other", "667-EVQP7B01P", "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7B01P?qs=rJ%252BziJWpysy7zJMMjBY36A%3D%3D", "EVQ-P7B01P", "https://www.arrow.com/en/products/evq-p7b01p/panasonic", "", "", "SWITCH, TACTILE, SPST-NO, 50mA, 12VDC, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:Surface Mount; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC RoHS Compliant: Yes", "https://www.mouser.com/datasheet/2/315/sw_lt_eng_3529s_side-1289027.pdf", "1.55 mm"
+END_PART
+
+END.

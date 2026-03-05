@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EVQ-P7B01P
+D SWITCH, TACTILE, SPST-NO, 50mA, 12VDC, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:Surface Mount; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC RoHS Compliant: Yes
+K
+F https://www.mouser.com/datasheet/2/315/sw_lt_eng_3529s_side-1289027.pdf
+$ENDCMP
+#
+#End Doc Library

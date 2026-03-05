@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EVQ-P7B01P
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2020-01-09 11:19:09
+Downloaded=2022-12-11 03:33:40
+3D=N

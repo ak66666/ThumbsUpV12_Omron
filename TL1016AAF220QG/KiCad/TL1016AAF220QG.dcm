@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL1016AAF220QG
+D Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC
+K
+F https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf
+$ENDCMP
+#
+#End Doc Library

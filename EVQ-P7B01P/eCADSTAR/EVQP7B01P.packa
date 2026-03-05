@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EVQ-P7B01P"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-09-11:19:09)
+    (mountForm default
+        (footprintRef "EVQP7B01P")
+        (spec "System")
+    )
+)

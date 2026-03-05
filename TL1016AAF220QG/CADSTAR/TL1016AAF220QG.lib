@@ -1,0 +1,19 @@
+.TL1016AAF220QG :1 ;Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC
+TL1016AAF220QG
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN TL1016AAF220QG
+~!Manufacturer_Name (E-Switch)
+~!Manufacturer_Part_Number (TL1016AAF220QG)
+~!Mouser Part Number (612-TL1016AAF220QG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf)
+~!Height (1.35mm)
+TL1016AAF220QG
+1.1!U 2.1!U 3.1!U 4.1!U 

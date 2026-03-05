@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EVQ-P7B01P
+#/1042227/975292/2.49/4/4/Switch
+DEF EVQ-P7B01P S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "EVQ-P7B01P" 1050 200 50 H V L CNN
+F2 "EVQP7B01P" 1050 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_3529s_side-1289027.pdf" 1050 0 50 H I L CNN
+F4 "SWITCH, TACTILE, SPST-NO, 50mA, 12VDC, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:Surface Mount; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC RoHS Compliant: Yes" 1050 -100 50 H I L CNN "Description"
+F5 "1.55" 1050 -200 50 H I L CNN "Height"
+F6 "Panasonic" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "EVQ-P7B01P" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "667-EVQP7B01P" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7B01P?qs=rJ%252BziJWpysy7zJMMjBY36A%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "EVQ-P7B01P" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/evq-p7b01p/panasonic" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1050 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1050 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X NO_1 A1 0 0 200 R 50 50 0 0 P
+X COM_1 A2 0 -100 200 R 50 50 0 0 P
+X NO_2 B1 1200 0 200 L 50 50 0 0 P
+X COM_2 B2 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

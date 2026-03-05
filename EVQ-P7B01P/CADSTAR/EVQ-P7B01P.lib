@@ -1,0 +1,20 @@
+.EVQ-P7B01P :1 ;SWITCH, TACTILE, SPST-NO, 50mA, 12VDC, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:Surface Mount; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC RoHS Compliant: Yes
+EVQP7B01P
+*STM S
+*NGS
+*PNM 1=A1 2=A2 3=B1 4=B2
+*PLB 1="NO_1" 2="COM_1" 3="NO_2" 4="COM_2"
+*MXP 4
+*DFN EVQ-P7B01P
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (EVQ-P7B01P)
+~!Mouser Part Number (667-EVQP7B01P)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7B01P?qs=rJ%252BziJWpysy7zJMMjBY36A%3D%3D)
+~!Arrow Part Number (EVQ-P7B01P)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/evq-p7b01p/panasonic)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/315/sw_lt_eng_3529s_side-1289027.pdf)
+~!Height (1.55mm)
+EVQ-P7B01P
+1.1!U 2.1!U 3.1!U 4.1!U 

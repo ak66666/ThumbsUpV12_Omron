@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "W25Q128JVSIM"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-22-13:10:37)
+    (mountForm default
+        (footprintRef "SOIC127P790X216-8N")
+        (spec "System")
+    )
+)
