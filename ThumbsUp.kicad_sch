@@ -2269,6 +2269,16 @@
 		)
 		(uuid "d3a08d85-6ee5-4d58-8ccd-94f9ac8ff1da")
 	)
+	(text "Dummy line for the paddles "
+		(exclude_from_sim no)
+		(at 471.17 227.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4a7ab82-6abe-4bf4-9736-3017584676aa")
+	)
 	(text "Handiness"
 		(exclude_from_sim no)
 		(at 298.958 216.916 0)
@@ -8363,6 +8373,70 @@
 			(project "ThumbsUp"
 				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
 					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 471.17 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ef92fde-9629-4e31-b12c-565a113ebcf9")
+		(property "Reference" "#PWR07"
+			(at 471.17 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-P"
+			(at 471.297 234.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 471.17 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 471.17 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 471.17 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a6268a4-7f43-4eed-80d5-97a39a450b77")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
