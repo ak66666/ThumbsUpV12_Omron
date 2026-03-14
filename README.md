@@ -11,6 +11,12 @@ Omron mouse switches or 6x6 two-pin switches.
 * TRS (3-wire) audio cable to connect the halves.
 * USB-C connectors.
 
+For the key paddles suspension the silicone O-rings are used: CS2.4mm, OD 11mm (12mm works too).
+Cross section 2-2.5 mm works well.
+OD less than 11mm result in much heavier keys. 
+OD more than 12mm is a bit too loose.
+
+
 # Rev.3
 
 Approx. 15g activation with Omron switches, reduced from the previous revisions.
