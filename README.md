@@ -1,13 +1,21 @@
-# ThumbsUp! v12 RP2040-based ProMicro 3x12 keyboard for Omron and mouse switches.
+# ThumbsUp! v12 RP2040-based ProMicro 3x12 chord keyboard for Omron and mouse switches.
                            
 Steno keyboard (number key instead of a bar)
 2-key Thumb Cluster
+Cirque ProGlide trackpad/touchpad
+
 
 Omron mouse switches or 6x6 two-pin switches.
 
 * RP2040 ProMicro.
 * TRS (3-wire) audio cable to connect the halves.
 * USB-C connectors.
+# Rev.3
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.3/IMG_20260313_220132165_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.3/IMG_20260313_220141291_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.3/IMG_20260313_220251222_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.3/IMG_20260313_220259396.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.3/IMG_20260313_220304919_HDR.jpg)
 
 # Rev.2
 

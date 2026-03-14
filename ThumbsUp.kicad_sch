@@ -2929,9 +2929,9 @@
 		)
 		(uuid "7c53c978-b361-469f-8844-4232088071d3")
 	)
-	(text "GP5\nGP6\nGP7\nGP8\nGP9"
+	(text "GP4\nGP5\nGP6\nGP7\nGP8\nGP9"
 		(exclude_from_sim no)
-		(at 320.04 226.568 0)
+		(at 320.04 224.536 0)
 		(effects
 			(font
 				(size 1.27 1.27)
