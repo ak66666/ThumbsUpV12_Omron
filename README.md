@@ -11,11 +11,26 @@ Omron mouse switches or 6x6 two-pin switches.
 * TRS (3-wire) audio cable to connect the halves.
 * USB-C connectors.
 
-For the key paddles suspension the silicone O-rings are used: CS2.4mm, OD 11mm (12mm works too).
+Silicone O-rings are used for the key paddles suspension: CS2.4mm, OD 11mm (12mm works too).
 Cross section 2-2.5 mm works well.
 OD less than 11mm result in much heavier keys. 
 OD more than 12mm is a bit too loose.
 
+# Rev.5
+
+Re-worked the cross-board connections: 
+Replaced the mix of pin headers/sockets and stand-offs with individual stand-off for each key, plus one in a corner.
+This way the boards should stay flat, no twisting due to minor height mismatch and the connectors pulled upwards unevenly.
+Hopefully that will equalize the key reactions, uniform the feel.
+
+Split the top board in two parts - to move the thumb keys higher and a bit closer to the index finger column. 
+If it was left as a single detail - it would be C-shaped board with a thin profile, could be easily broken, and, probably, harder to manufacture and deliver.
+
+Moved the MCU, connectors to make room for the stand-offs, re-laid the tracks where affected.
+
+# Rev.4
+
+Moved the keys as in rev.1, as the rev.3 inherited the spacing from rev.2 and was a bit uncomfortable.
 
 # Rev.3
 
