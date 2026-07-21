@@ -2609,6 +2609,12 @@
 		(uuid "3bec7b7c-3069-475d-b159-94e56e9dd8d8")
 	)
 	(junction
+		(at 292.1 308.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dc75ae9-4a49-449f-92ac-56c1c4d15385")
+	)
+	(junction
 		(at 448.31 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2793,6 +2799,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf14ed4-4f4e-4920-954d-f921f41e288a")
+	)
+	(junction
+		(at 281.94 308.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af5b17ca-ae8e-4092-8c67-2063e2940451")
 	)
 	(junction
 		(at 421.64 278.13)
@@ -3262,6 +3274,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 308.61) (xy 281.94 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1549c0-3154-46d6-a943-dbcb9e30b12f")
+	)
+	(wire
+		(pts
 			(xy 293.37 200.66) (xy 290.83 200.66)
 		)
 		(stroke
@@ -3619,6 +3641,16 @@
 			(type default)
 		)
 		(uuid "bbbb1d9d-f9c5-4e15-beb4-946f0dc781bd")
+	)
+	(wire
+		(pts
+			(xy 281.94 308.61) (xy 292.1 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1cd9622-07e1-42e6-8206-8d4728d1a696")
 	)
 	(wire
 		(pts
@@ -4178,6 +4210,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SwE"
+		(shape input)
+		(at 275.59 303.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53cc6f52-749a-4759-829d-8703e0634db1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.59 297.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4938,6 +4992,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SwU"
+		(shape input)
+		(at 287.02 303.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffa89c67-1e3e-43c5-8a60-198d925088ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.02 297.3285 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6708,6 +6784,73 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 468.63 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09a912fd-16da-4cfc-9e79-8674e5350b8e")
+		(property "Reference" "H28"
+			(at 471.17 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 471.17 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 468.63 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 468.63 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 468.63 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ae9e8c0-08da-4503-9445-5d930ec9802c")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "H28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 431.8 314.96 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6970,6 +7113,73 @@
 			(project "ThumbsUp"
 				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 271.78 304.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2249eb66-b256-4502-a016-f802572ca4d0")
+		(property "Reference" "MX1"
+			(at 272.6182 299.1358 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SwE"
+			(at 272.6182 301.0154 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_D2FC_OMR"
+			(at 255.905 305.435 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.905 305.435 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "58313b6a-afeb-4749-b470-1fb0bbb09ea7")
+		)
+		(pin "1"
+			(uuid "32e714ba-fae1-4ff8-890c-3c9a4c62fb2f")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "MX1")
 					(unit 1)
 				)
 			)
@@ -9332,6 +9542,73 @@
 		)
 	)
 	(symbol
+		(lib_id "ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 283.21 304.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb04d723-5773-4120-9696-1d10a37230d1")
+		(property "Reference" "MX2"
+			(at 284.0482 299.1358 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SwU"
+			(at 284.0482 301.0154 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_D2FC_OMR"
+			(at 267.335 305.435 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.335 305.435 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a70685a8-37fa-4514-8cc5-857864939c4e")
+		)
+		(pin "1"
+			(uuid "2fb8f8cf-179e-47ea-a2e4-224821e0421a")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "MX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ThumbsUp-rescue:52559-1233-52559-1233")
 		(at 280.67 349.25 0)
 		(unit 1)
@@ -9698,6 +9975,73 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 448.31 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8fd339b-e2e5-4ab3-a71b-f09bfdf8e568")
+		(property "Reference" "H26"
+			(at 450.85 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 450.85 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 448.31 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 448.31 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 448.31 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed34c576-a6ab-4c92-890f-ae4e89cee515")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "H26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 420.37 309.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10056,6 +10400,73 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 438.15 289.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dedf0c1e-909b-47e8-8431-63ac50e1b7d7")
+		(property "Reference" "H29"
+			(at 440.69 287.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 440.69 289.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 438.15 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 438.15 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 438.15 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6213053f-6a7a-419c-8cc1-3779ba85a071")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "H29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 482.6 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10308,6 +10719,73 @@
 			(project "ThumbsUp"
 				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 458.47 289.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f56da6-12ae-4846-b22e-66940f6b8e66")
+		(property "Reference" "H30"
+			(at 461.01 287.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 461.01 289.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 458.47 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 458.47 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 458.47 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ee21472-792b-4966-98f2-dbee4043dc47")
+		)
+		(instances
+			(project "ThumbsUp"
+				(path "/467ed76c-995a-4514-a2e9-81ed0f98430e"
+					(reference "H30")
 					(unit 1)
 				)
 			)
