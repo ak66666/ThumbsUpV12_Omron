@@ -35,13 +35,13 @@ If it was left as a single detail - it would be C-shaped board with a thin profi
 
 Moved the MCU, connectors to make room for the stand-offs, re-laid the tracks where affected.
 
-![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214554678.jpg)
-![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214603801.jpg)
-![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214622668.jpg)
-![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214647605.jpg)
-![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214702145.jpg)
-![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214757023_HDR.jpg)
-![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214823374_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5/IMG_20260805_214554678.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5/IMG_20260805_214603801.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5/IMG_20260805_214622668.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5/IMG_20260805_214647605.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5/IMG_20260805_214702145.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5/IMG_20260805_214757023_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5/IMG_20260805_214823374_HDR.jpg)
 
 
 
