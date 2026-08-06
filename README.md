@@ -16,6 +16,13 @@ Cross section 2-2.5 mm works well.
 OD less than 11mm result in much heavier keys. 
 OD more than 12mm is a bit too loose.
 
+
+# Rev.6
+
+Made the thumb keys reverseable - their hinges were separated from the top keys/trackpad cover.
+That little two-key hinge could be placed closer to the front edge, in somewhat return to the rev.0/rev.1 layout.
+Otherwise it is the same as rev.5
+
 # Rev.5
 
 Re-worked the cross-board connections: 
@@ -27,6 +34,16 @@ Split the top board in two parts - to move the thumb keys higher and a bit close
 If it was left as a single detail - it would be C-shaped board with a thin profile, could be easily broken, and, probably, harder to manufacture and deliver.
 
 Moved the MCU, connectors to make room for the stand-offs, re-laid the tracks where affected.
+
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214554678.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214603801.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214622668.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214647605.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214702145.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214757023_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/main/Photos/rev.5/IMG_20260805_214823374_HDR.jpg)
+
+
 
 # Rev.4
 
