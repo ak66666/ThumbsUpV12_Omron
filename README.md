@@ -23,6 +23,16 @@ Made the thumb keys reverseable - their hinges were separated from the top keys/
 That little two-key hinge could be placed closer to the front edge, in somewhat return to the rev.0/rev.1 layout.
 Otherwise it is the same as rev.5
 
+Reversed keys are more comfortable when the board is below elbows level, but placed on the desk thumb keys are hard to reach.
+So, not sure if it much better than rev.5.
+
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.6/IMG_20260819_211209259_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.6/IMG_20260819_211225304_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.6/IMG_20260819_211230658.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.6/IMG_20260819_211301243.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.6/IMG_20260819_211314177_HDR.jpg)
+
+
 # Rev.5
 
 Re-worked the cross-board connections: 
