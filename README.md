@@ -16,7 +16,6 @@ Cross section 2-2.5 mm works well.
 OD less than 11mm result in much heavier keys. 
 OD more than 12mm is a bit too loose.
 
-
 # Rev.6
 
 Made the thumb keys reverseable - their hinges were separated from the top keys/trackpad cover.
@@ -92,3 +91,9 @@ Other pictures and videos in Photos folder.
 
 TX-Bolt interface as the only connectivity option for now:
 https://github.com/ak66666/qmk_firmware/tree/thumbsup_20240523/keyboards/thumbsup/rev12_rp2040_split_steno
+
+# Javelin
+
+Loaded Javelin to this v12 rev.5/6 and v13:
+https://github.com/ak66666/javelin-steno-pico
+ 
