@@ -16,6 +16,19 @@ Cross section 2-2.5 mm works well.
 OD less than 11mm result in much heavier keys. 
 OD more than 12mm is a bit too loose.
 
+# Curvy Case for Rev.5 and Rev.6
+
+Added a drop-in case for rev.5 and rev.6 boards (they have the same outline):
+File: "...\3D Printed\Rev.5\v12 rev5 Curvy Case Left.stl"
+
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5,6_curvy_case/IMG_20260920_210203374.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5,6_curvy_case/IMG_20260920_210208055_MP.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5,6_curvy_case/IMG_20260920_210211976.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5,6_curvy_case/IMG_20260920_210216309_HDR.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5,6_curvy_case/IMG_20260920_210227906.jpg)
+![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.5,6_curvy_case/IMG_20260920_210246881.jpg)
+
+
 # Rev.6
 
 Made the thumb keys reverseable - their hinges were separated from the top keys/trackpad cover.
@@ -23,7 +36,8 @@ That little two-key hinge could be placed closer to the front edge, in somewhat 
 Otherwise it is the same as rev.5
 
 Reversed keys are more comfortable when the board is below elbows level, but placed on the desk thumb keys are hard to reach.
-So, not sure if it much better than rev.5.
+So, not sure if it much better than rev.5 with the thumbs reversed.
+With the front-facing thumb pads they are the same, and the top row board is stronger with the wobbly hook cut off.
 
 ![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.6/IMG_20260819_211209259_HDR.jpg)
 ![Main view](https://github.com/ak66666/ThumbsUpV12_Omron/blob/reversible_thumbs/Photos/rev.6/IMG_20260819_211225304_HDR.jpg)
